@@ -17,3 +17,57 @@
 </div>
 
  <hr/>
+
+ # COP (Crime Observation and Prevention) iOS Application
+
+## Overview
+
+The **COP** iOS application is designed for the Delhi Police to facilitate crime monitoring and reporting. It allows users to sign up, log in, and verify their identity. The app features a tab bar navigation system, each tab corresponding to different functionalities for crime tracking in map based on place,datea and crime type ,Live tracking of junior police officers location,time and other stull by Admins, user profile, and more.
+
+### Features
+
+- **SignIn & SignUp Flow**: Allows users to log in or create an account using their phone number.
+- **OTP Verification**: Users receive an OTP to verify their phone number and complete registration or sign-in.
+- **Tab Bar Navigation**: After successful OTP verification, users are taken to a screen with four main tabs for different functionalities:
+  - **Home (Tab 1)**: Displays a map with crime data and filtering options.
+  - **Reports (Tab 2)**: View reports and insights into crime data.
+  - **Notifications (Tab 3)**: Notifications regarding recent activities or updates.
+  - **Profile (Tab 4)**: Manage user details like name, phone number, date of birth, and address.
+
+### View Controllers
+
+- **SignInViewController**: Handles user login with a phone number input and a button to generate OTP.
+- **SignUpViewController**: Facilitates user registration with a phone number input and a button to generate OTP.
+- **OTPViewController**: Manages OTP verification, sending, and verifying the OTP for both SignIn and SignUp flows.
+- **Tab Bar Controller**: Once logged in, users can access different functionalities via four tabs:
+  1. **Home**
+  2. **Reports**
+  3. **Notifications**
+  4. **Profile**
+
+### Technology Stack
+
+- **Swift**: Frontend built using UIKit.
+- **Node.js**: By team members, Backend for handling user authentication and data storage.
+- **Alamofire**: Networking library for API calls.
+- **MapKit**: Used for displaying crime data on a map with filtering options.
+- **JSON**: Handling data exchange between frontend and backend.
+
+## Screenshots
+
+Below are some screenshots of the COP app showing various screens:
+
+| Screen            | Description                       |
+|-------------------|-----------------------------------|
+
+| ![img04](https://github.com/user-attachments/assets/6141293f-5053-4067-b866-522d96de1cf1)      | **Sign In**: Enter phone number and request OTP. |
+|    | **Sign Up**: Enter phone number to create a new account. |
+| ![Notifications Tab](./screenshots/notifications_tab.png) | **Notifications Tab**: Notifications about activities and updates. |
+| ![OTP Verification](   ) | **OTP Verification**: Enter the OTP received to verify phone number. |
+
+|  ![img05](https://github.com/user-attachments/assets/b8439a3c-389d-4fef-af3d-ab2f0acf4572)  ![img06](https://github.com/user-attachments/assets/3edb2245-9043-4e51-b823-6e305905212a)   | **Home Tab**: Map displaying crime data and filter options. |
+
+| ![Admin Tab](./screenshots/reports_tab.png) | **Admin Tab**: Live tracking of constables by Admins. |
+
+| ![img07](https://github.com/user-attachments/assets/ff03185a-16a7-43ba-9f74-813a627153fb)    | **Profile Tab**: View and edit personal details such as name, phone number, and address. |
+   
