@@ -33,7 +33,7 @@ The GitHub Follower app allows users to view a list of their GitHub followers, s
 
 | Screen            | Description                       |
 |-------------------|-----------------------------------|
-|<p align="center"> <img src="://github.com/user-attachments/assets/37e751ca-f0de-437f-b26a-a070607cb639" width="200"/> </p>| **Search Github UserName**: Enter Respective userName of the person and request followers. |
+|<p align="center"> <img src="https://github.com/user-attachments/assets/a9065492-f3ab-4072-8af1-a50bb19bea96" width="200"/> </p>| **Search Github UserName**: Enter Respective userName of the person and request followers. |
 |<p align="center"> <img src="https://github.com/user-attachments/assets/c7c4dc7b-85ea-4f52-a224-b5952f71d36b" width="200"/> </p>| **Empty State View**: View of screen in case of no followers exist with respect to that userName. |
 |<p align="center"> <img src="https://github.com/user-attachments/assets/0276e1cc-adfa-4293-9ac3-975f8aaaf480" width="200"/> </p>| **List of Followers**: Returns list of followers in a table view format with search controller to filter based on Follower name. |
 | <img src="https://github.com/user-attachments/assets/bd1f6a47-3486-4569-86a1-ded6a1265ef0" width="200"/> | **User Profile Section**: Shows basic user details like Name,Bio,Location,Avatar Image,followers,gists,repos,Button for github profile and to view followers. |
