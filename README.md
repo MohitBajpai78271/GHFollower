@@ -32,24 +32,21 @@ The GitHub Follower app allows users to view a list of their GitHub followers, s
 ## Screenshots
 
 Below are some screenshots of the GitHub Follower app showing various screens:
-![SafariView](https://github.com/user-attachments/assets/b1327947-a6ce-4e44-82c3-9b282eb47fb5)
-
 
 | Screen            | Description                       |
 |-------------------|-----------------------------------|
 | <div align="center">
   <img src="https://github.com/user-attachments/assets/37e751ca-f0de-437f-b26a-a070607cb639" width="200" alt="Search Github UserName"/>
-</div> | **Search UserName**: Shows a text Field and Button to search Followers based on entered userName. |
+</div> | **Search UserName**: Shows a text field and button to search followers based on the entered username. |
 | <div align="center">
-  <img src="https://github.com/user-attachments/assets/c7c4dc7b-85ea-4f52-a224-b5952f71d36b" width="200" alt="Emty state view in case of No Followers exist"/>
-</div> | **Empty state view**: Shows this view in case no followers exist. |
+  <img src="https://github.com/user-attachments/assets/c7c4dc7b-85ea-4f52-a224-b5952f71d36b" width="200" alt="Empty state view in case of No Followers"/>
+</div> | **Empty State View**: Displays this view if no followers exist. |
 | <div align="center">
   <img src="" width="200" alt="Followers List"/>
 </div> | **Followers List**: Shows a table view of GitHub followers with search functionality. |
 | <div align="center">
-  <img src="./screenshots/follower_profile.png" width="300" alt="Follower Profile"/>
+  <img src="./screenshots/follower_profile.png" width="200" alt="Follower Profile"/>
 </div> | **Follower Profile**: Displays detailed information about the selected follower. |
 | <div align="center">
   <img src="https://github.com/user-attachments/assets/b1327947-a6ce-4e44-82c3-9b282eb47fb5" width="200" alt="GitHub Page"/>
 </div> | **GitHub Page**: Opens the follower’s GitHub profile page in Safari. |
-
