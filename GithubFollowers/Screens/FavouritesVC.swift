@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  FavouritesVC.swift
 //  GithubFollowers
 //
 //  Created by Mac on 01/08/24.
@@ -7,13 +7,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FavouritesVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        self.view.backgroundColor = .systemBlue
+
+      
     }
 
 
 }
-
