@@ -31,22 +31,11 @@ The GitHub Follower app allows users to view a list of their GitHub followers, s
 
 ## Screenshots
 
-Below are some screenshots of the GitHub Follower app showing various screens:
-
 | Screen            | Description                       |
 |-------------------|-----------------------------------|
-| <div align="center">
-  <img src="https://github.com/user-attachments/assets/37e751ca-f0de-437f-b26a-a070607cb639" width="200" alt="Search Github UserName"/>
-</div> | **Search UserName**: Shows a text field and button to search followers based on the entered username. |
-| <div align="center">
-  <img src="https://github.com/user-attachments/assets/c7c4dc7b-85ea-4f52-a224-b5952f71d36b" width="200" alt="Empty state view in case of No Followers"/>
-</div> | **Empty State View**: Displays this view if no followers exist. |
-| <div align="center">
-  <img src="" width="200" alt="Followers List"/>
-</div> | **Followers List**: Shows a table view of GitHub followers with search functionality. |
-| <div align="center">
-  <img src="./screenshots/follower_profile.png" width="200" alt="Follower Profile"/>
-</div> | **Follower Profile**: Displays detailed information about the selected follower. |
-| <div align="center">
-  <img src="https://github.com/user-attachments/assets/b1327947-a6ce-4e44-82c3-9b282eb47fb5" width="200" alt="GitHub Page"/>
-</div> | **GitHub Page**: Opens the follower’s GitHub profile page in Safari. |
+|<p align="center"> <img src="://github.com/user-attachments/assets/37e751ca-f0de-437f-b26a-a070607cb639" width="200"/> </p>| **Search Github UserName**: Enter Respective userName of the person and request followers. |
+|<p align="center"> <img src="https://github.com/user-attachments/assets/c7c4dc7b-85ea-4f52-a224-b5952f71d36b" width="200"/> </p>| **Empty State View**: View of screen in case of no followers exist with respect to that userName. |
+|<p align="center"> <img src="https://github.com/user-attachments/assets/0276e1cc-adfa-4293-9ac3-975f8aaaf480" width="200"/> </p>| **List of Followers**: Returns list of followers in a table view format with search controller to filter based on Follower name. |
+| <img src="https://github.com/user-attachments/assets/bd1f6a47-3486-4569-86a1-ded6a1265ef0" width="200"/> | **User Profile Section**: Shows basic user details like Name,Bio,Location,Avatar Image,followers,gists,repos,Button for github profile and to view followers. |
+|<p align="center"> <img src="https://github.com/user-attachments/assets/82ecd01a-bcc5-4ac9-a7fd-ea736fe37e76" width="200"/> </p>| **Followers of Followers**: To View Followers of Followers and so on. |
+|<p align="center"> <img src="https://github.com/user-attachments/assets/b1327947-a6ce-4e44-82c3-9b282eb47fb5" width="200"/> </p>| **Github Profile**: Opens Safari view controller using SFSafariServices. |
