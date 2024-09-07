@@ -17,57 +17,39 @@
 </div>
 
  <hr/>
+ 
+ # GitHub Follower
 
- # COP (Crime Observation and Prevention) iOS Application
+The GitHub Follower app allows users to view a list of their GitHub followers, search through them, view their profiles, and check their followers or visit their GitHub page in Safari.
 
-## Overview
+## Features
 
-The **COP** iOS application is designed for the Delhi Police to facilitate crime monitoring and reporting. It allows users to sign up, log in, and verify their identity. The app features a tab bar navigation system, each tab corresponding to different functionalities for crime tracking in map based on place,datea and crime type ,Live tracking of junior police officers location,time and other stull by Admins, user profile, and more.
-
-### Features
-
-- **SignIn & SignUp Flow**: Allows users to log in or create an account using their phone number.
-- **OTP Verification**: Users receive an OTP to verify their phone number and complete registration or sign-in.
-- **Tab Bar Navigation**: After successful OTP verification, users are taken to a screen with four main tabs for different functionalities:
-  - **Home (Tab 1)**: Displays a map with crime data and filtering options.
-  - **Reports (Tab 2)**: View reports and insights into crime data.
-  - **Notifications (Tab 3)**: Notifications regarding recent activities or updates.
-  - **Profile (Tab 4)**: Manage user details like name, phone number, date of birth, and address.
-
-### View Controllers
-
-- **SignInViewController**: Handles user login with a phone number input and a button to generate OTP.
-- **SignUpViewController**: Facilitates user registration with a phone number input and a button to generate OTP.
-- **OTPViewController**: Manages OTP verification, sending, and verifying the OTP for both SignIn and SignUp flows.
-- **Tab Bar Controller**: Once logged in, users can access different functionalities via four tabs:
-  1. **Home**
-  2. **Reports**
-  3. **Notifications**
-  4. **Profile**
-
-### Technology Stack
-
-- **Swift**: Frontend built using UIKit.
-- **Node.js**: By team members, Backend for handling user authentication and data storage.
-- **Alamofire**: Networking library for API calls.
-- **MapKit**: Used for displaying crime data on a map with filtering options.
-- **JSON**: Handling data exchange between frontend and backend.
+- **Search Option**: Allows users to search for followers by name.
+- **List of Followers**: Displays a list of followers in a table view.
+- **Profile View**: Clicking on a follower displays their profile details.
+- **Follower Details**: Users can check the follower's profile or visit their GitHub page in Safari.
 
 ## Screenshots
 
-Below are some screenshots of the COP app showing various screens:
+Below are some screenshots of the GitHub Follower app showing various screens:
+![SafariView](https://github.com/user-attachments/assets/b1327947-a6ce-4e44-82c3-9b282eb47fb5)
+
 
 | Screen            | Description                       |
 |-------------------|-----------------------------------|
+| <div align="center">
+  <img src="https://github.com/user-attachments/assets/37e751ca-f0de-437f-b26a-a070607cb639" width="200" alt="Search Github UserName"/>
+</div> | **Search UserName**: Shows a text Field and Button to search Followers based on entered userName. |
+| <div align="center">
+  <img src="https://github.com/user-attachments/assets/c7c4dc7b-85ea-4f52-a224-b5952f71d36b" width="200" alt="Emty state view in case of No Followers exist"/>
+</div> | **Empty state view**: Shows this view in case no followers exist. |
+| <div align="center">
+  <img src="" width="200" alt="Followers List"/>
+</div> | **Followers List**: Shows a table view of GitHub followers with search functionality. |
+| <div align="center">
+  <img src="./screenshots/follower_profile.png" width="300" alt="Follower Profile"/>
+</div> | **Follower Profile**: Displays detailed information about the selected follower. |
+| <div align="center">
+  <img src="https://github.com/user-attachments/assets/b1327947-a6ce-4e44-82c3-9b282eb47fb5" width="200" alt="GitHub Page"/>
+</div> | **GitHub Page**: Opens the follower’s GitHub profile page in Safari. |
 
-| ![img04](https://github.com/user-attachments/assets/6141293f-5053-4067-b866-522d96de1cf1)      | **Sign In**: Enter phone number and request OTP. |
-|    | **Sign Up**: Enter phone number to create a new account. |
-| ![Notifications Tab](./screenshots/notifications_tab.png) | **Notifications Tab**: Notifications about activities and updates. |
-| ![OTP Verification](   ) | **OTP Verification**: Enter the OTP received to verify phone number. |
-
-|  ![img05](https://github.com/user-attachments/assets/b8439a3c-389d-4fef-af3d-ab2f0acf4572)  ![img06](https://github.com/user-attachments/assets/3edb2245-9043-4e51-b823-6e305905212a)   | **Home Tab**: Map displaying crime data and filter options. |
-
-| ![Admin Tab](./screenshots/reports_tab.png) | **Admin Tab**: Live tracking of constables by Admins. |
-
-| ![img07](https://github.com/user-attachments/assets/ff03185a-16a7-43ba-9f74-813a627153fb)    | **Profile Tab**: View and edit personal details such as name, phone number, and address. |
-   
